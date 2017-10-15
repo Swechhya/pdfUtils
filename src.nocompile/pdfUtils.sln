@@ -8,7 +8,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntryForR", "EntryForR\EntryForR.csproj", "{26799494-854B-403A-9784-06341FD2FD46}"
 	ProjectSection(ProjectDependencies) = postProject
 		{9844B46E-C7E6-4824-AF92-9157390EB901} = {9844B46E-C7E6-4824-AF92-9157390EB901}
+		{D92254E4-57C2-4D5B-B217-96ECE4169878} = {D92254E4-57C2-4D5B-B217-96ECE4169878}
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtractImage", "ExtractImage\ExtractImage.csproj", "{D92254E4-57C2-4D5B-B217-96ECE4169878}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +27,10 @@ Global
 		{26799494-854B-403A-9784-06341FD2FD46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26799494-854B-403A-9784-06341FD2FD46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26799494-854B-403A-9784-06341FD2FD46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D92254E4-57C2-4D5B-B217-96ECE4169878}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D92254E4-57C2-4D5B-B217-96ECE4169878}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D92254E4-57C2-4D5B-B217-96ECE4169878}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D92254E4-57C2-4D5B-B217-96ECE4169878}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

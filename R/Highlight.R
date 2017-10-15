@@ -24,5 +24,5 @@ Highlightext <- function(filepath, filename, text){
                 as.character(filename))
   
   op <- clrCall(obj, 'HighLightText', text)
-  message("Text highlighted sucessfully.")
+  message("Text highlighted successfully.")
 }

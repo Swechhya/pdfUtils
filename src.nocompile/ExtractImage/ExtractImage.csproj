@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{26799494-854B-403A-9784-06341FD2FD46}</ProjectGuid>
+    <ProjectGuid>{D92254E4-57C2-4D5B-B217-96ECE4169878}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>EntryForR</RootNamespace>
-    <AssemblyName>EntryForR</AssemblyName>
+    <RootNamespace>ExtractImage</RootNamespace>
+    <AssemblyName>ExtractImage</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -20,7 +20,6 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <RegisterForComInterop>true</RegisterForComInterop>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>none</DebugType>
@@ -31,12 +30,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ExtractImage">
-      <HintPath>..\ExtractImage\bin\Debug\ExtractImage.dll</HintPath>
-    </Reference>
-    <Reference Include="itextsharp, Version=5.3.5.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Github\pdfUtils\src.nocompile\lib\itextsharp.dll</HintPath>
+    <Reference Include="itextsharp">
+      <HintPath>..\SearchTextBoundary\bin\Debug\itextsharp.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -49,14 +44,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="clsEntryForR.cs" />
+    <Compile Include="ImageExtraction.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\SearchTextBoundary\SearchTextBoundary.csproj">
-      <Project>{9844b46e-c7e6-4824-af92-9157390eb901}</Project>
-      <Name>SearchTextBoundary</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
