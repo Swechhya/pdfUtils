@@ -4,7 +4,7 @@ Title: Integration of PDF functionalities from R
 Version: 0.1
 Date: 2017-08-15
 Author: Swechhya Bista
-Maintainer: Swechhya Bista<swechhyabista@gmail.net>
+Maintainer: Swechhya Bista<swechhyabista@gmail.com>
 Description: Integration of PDF functionalities from R.This package uses itextsharp API to integrate PDF functionalities.
 Depends: rClr
 License: GPL-3.0
