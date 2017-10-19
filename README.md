@@ -11,3 +11,8 @@ You can install it from `github` using the `devtools` package.
 library(devtools)
 install_github('Swechhya/pdfUtils')  ## assuming that you have already installed rClr
 ```
+
+## Features
+`pdfUtils` presents many features:
+* Search and highlight words in PDF document.
+* Extract images from PDF document.
